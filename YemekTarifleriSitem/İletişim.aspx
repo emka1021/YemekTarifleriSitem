@@ -44,31 +44,31 @@
         <tr>
             <td class="auto-style15"><strong>Ad Soyad:</strong></td>
             <td class="auto-style10">
-                <asp:TextBox ID="TextBox1" runat="server" CssClass="tb5" Height="23px" Width="193px"></asp:TextBox>
+                <asp:TextBox ID="TxtGonderen" runat="server" CssClass="tb5" Height="23px" Width="193px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style15"><strong>Mail Adresiniz:</strong></td>
             <td class="auto-style10">
-                <asp:TextBox ID="TextBox2" runat="server" Height="23px" Width="193px" CssClass="tb5"></asp:TextBox>
+                <asp:TextBox ID="TxtMail" runat="server" Height="23px" Width="193px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style14"><strong>Konu:</strong></td>
             <td class="auto-style11">
-                <asp:TextBox ID="TextBox3" runat="server" Height="23px" Width="193px" CssClass="tb5"></asp:TextBox>
+                <asp:TextBox ID="TxtKonu" runat="server" Height="23px" Width="193px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style13"><strong>Mesaj:</strong></td>
             <td>
-                <asp:TextBox ID="TextBox4" runat="server" Height="125px" Width="193px" CssClass="auto-style17"></asp:TextBox>
+                <asp:TextBox ID="TxtMesaj" runat="server" Height="125px" Width="193px" CssClass="auto-style17"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td><strong>
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style12" Height="30px" Text="Gönder" Width="136px" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style12" Height="30px" Text="Gönder" Width="136px" OnClick="Button1_Click" />
                 </strong></td>
         </tr>
     </table>
