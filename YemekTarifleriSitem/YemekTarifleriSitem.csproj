@@ -75,6 +75,7 @@
     <Content Include="TarifÖner.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="YemekDetay.aspx" />
     <Content Include="İletişim.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YemekDetay.aspx.cs">
+      <DependentUpon>YemekDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YemekDetay.aspx.designer.cs">
+      <DependentUpon>YemekDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="İletişim.aspx.cs">
       <DependentUpon>İletişim.aspx</DependentUpon>
