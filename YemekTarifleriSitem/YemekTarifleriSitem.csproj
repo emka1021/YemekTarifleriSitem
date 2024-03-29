@@ -70,8 +70,8 @@
     <Content Include="Anasayfa.aspx" />
     <Content Include="GününYemeği.aspx" />
     <Content Include="Hakkımızda.aspx" />
+    <Content Include="Kullanıcı.css" />
     <Content Include="resimler\kabak-mc3bccveri-resimli-yemek-tarifi-16.jpg" />
-    <Content Include="StyleSheet1.css" />
     <Content Include="TarifÖner.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
