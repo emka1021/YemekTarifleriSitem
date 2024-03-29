@@ -8,7 +8,11 @@
             height: 27px;
         }
         .auto-style12 {
+            text-align: center;
             background-color: #999999;
+        }
+        .auto-style13 {
+            color: #FFFFFF;
         }
     </style>
 </asp:Content>
@@ -32,8 +36,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="auto-style10"><strong>Eklenme Tarihi:</strong><em><asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekTarih") %>'></asp:Label>
-                            </em>&nbsp;- Puan:<strong><asp:Label ID="Label7" runat="server" Text='<%# Eval("YemekPuan") %>'></asp:Label>
+                        <td class="auto-style10"><strong>Eklenme Tarihi:</strong><em><asp:Label ID="Label6" runat="server" CssClass="auto-style13" Text='<%# Eval("YemekTarih") %>'></asp:Label>
+                            </em>&nbsp;- Puan:<strong><asp:Label ID="Label7" runat="server" CssClass="auto-style13" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                             </strong></td>
                     </tr>
                     <tr>
