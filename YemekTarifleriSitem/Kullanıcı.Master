@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -14,7 +15,7 @@
         .auto-style2 {
             text-align: center;
             font-weight: bold;
-            background-color: #FFFFFF;
+            background-color: #e88e8e;
         }
         .auto-style3 {
             font-size: large;
@@ -28,6 +29,14 @@
         .auto-style7 {
             font-size: x-large;
         }
+        .auto-style8 {
+            width: 700px;
+            height: 39px;
+        }
+        .auto-style9 {
+            width: 99%;
+            height: 39px;
+        }
     </style>
 </head>
 <body>
@@ -38,8 +47,8 @@
         <div style="margin-left:300px; width:700px; height: 20px;">
 
         </div>
-        <div style="margin-left:300px; width:700px; height: 25px; background-color: #ce7171;">
-            <table class="auto-style1">
+        <div style="margin-left:300px; background-color: #FFFFFF;" class="auto-style8">
+            <table class="auto-style9">
                 <tr>
                     <td class="auto-style2"><a href="Anasayfa.aspx">ANASAYFA</a></td>
                     <td class="auto-style2"><a href="GününYemeği.aspx">GÜNÜN YEMEĞİ</a></td>
