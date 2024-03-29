@@ -60,7 +60,7 @@
         <tr>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style8">
-                <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Height="40px" Text="Tarifi Öner" Width="136px" />
+                <asp:Button ID="Button1" runat="server" BackColor="#66FFFF" Height="40px" Text="Tarifi Öner" Width="136px" OnClick="Button1_Click" />
             </td>
         </tr>
     </table>
