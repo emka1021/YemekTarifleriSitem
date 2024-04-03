@@ -70,7 +70,9 @@
     <Content Include="Anasayfa.aspx" />
     <Content Include="GününYemeği.aspx" />
     <Content Include="Hakkımızda.aspx" />
+    <Content Include="KategoriDetay.aspx" />
     <Content Include="Kullanıcı.css" />
+    <Content Include="resimler\banner-1.png" />
     <Content Include="resimler\blog-ile-para-nasil-kazanilir.png" />
     <Content Include="resimler\kabak-mc3bccveri-resimli-yemek-tarifi-16.jpg" />
     <Content Include="TarifÖner.aspx" />
@@ -100,6 +102,13 @@
     </Compile>
     <Compile Include="Hakkımızda.aspx.designer.cs">
       <DependentUpon>Hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.designer.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Kullanıcı.Master.cs">
