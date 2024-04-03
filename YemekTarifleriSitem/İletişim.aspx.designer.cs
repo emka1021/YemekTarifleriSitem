@@ -15,40 +15,40 @@ namespace YemekTarifleriSitem
     {
 
         /// <summary>
-        /// TextBox1 control.
+        /// TxtGonderen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TxtGonderen;
 
         /// <summary>
-        /// TextBox2 control.
+        /// TxtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TxtMail;
 
         /// <summary>
-        /// TextBox3 control.
+        /// TxtKonu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox TxtKonu;
 
         /// <summary>
-        /// TextBox4 control.
+        /// TxtMesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox TxtMesaj;
 
         /// <summary>
         /// Button1 control.
