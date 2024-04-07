@@ -74,6 +74,7 @@
     <Content Include="ikonlar\R %281%29.png" />
     <Content Include="ikonlar\R.png" />
     <Content Include="ikonlar\refresh-icon-30.png" />
+    <Content Include="KategoriDüzenle.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanıcı.css" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Hakkımızda.aspx.designer.cs">
       <DependentUpon>Hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDüzenle.aspx.cs">
+      <DependentUpon>KategoriDüzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDüzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDüzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="KategoriDetay.aspx.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>

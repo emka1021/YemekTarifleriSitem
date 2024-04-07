@@ -46,7 +46,7 @@
                             <asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/ikonlar/R.png" Width="30px" />
                         </td>
                         <td class="auto-style19">
-                            <asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/ikonlar/R (1).png" Width="30px" />
+                        <a href="KategoriDüzenle.aspx?Kategoriid=<%Eval("Kategoriid"); %>"  >  <asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/ikonlar/R (1).png" Width="30px" /></a>
                         </td>
                         </strong>
                     </tr>
