@@ -77,24 +77,41 @@
             </tr>
             </strong>
             <tr>
-                <td>KATEGORİ AD:</td>
+                <td>YEMEK AD:</td>
                 <strong>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="275px"></asp:TextBox>
                 </td>
                 </strong>
             </tr>
             <tr>
-                <td>KATEGORİ İKON:</td>
+                <td>MALZEMELER:</td>
                 <td>
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <strong>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="100px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>YEMEK TARİFİ:</td>
+                <td>
+                    <strong>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="200px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>KATEGORİ</td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="275px">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>
-                    <asp:Button ID="Button5" runat="server" CssClass="auto-style22" Text="Ekle" Width="137px"  />
-                </td>
+                <td><strong>
+                    <asp:Button ID="Button6" runat="server" CssClass="auto-style22" Text="Ekle" Width="137px" />
+                    </strong></td>
             </tr>
         </table>
     </asp:Panel>

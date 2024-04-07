@@ -39,5 +39,5 @@
             </td>
         </tr>
     </table>
-    </strong>
+</strong>
 </asp:Content>
