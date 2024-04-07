@@ -44,7 +44,7 @@
                         </td>
                         <strong>
                         <td class="auto-style19">
-                           <a href="Kategoriler.aspx?Kategoriid=<%#Eval("Kategoriid") %>&islem=sil"> <asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/ikonlar/R.png" Width="30px" /></a>
+                           <a href="Yemekler.aspx?Yemekid=<%#Eval("Yemekid") %>&islem=sil"> <asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/ikonlar/R.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style19">
                         <a href="YemekDüzenle.aspx?Yemekid=<%# Eval("Yemekid"); %>"  >  <asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/ikonlar/R (1).png" Width="30px" /></a>
