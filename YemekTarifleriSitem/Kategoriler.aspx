@@ -54,7 +54,7 @@
             </ItemTemplate>
         </asp:DataList>
 </asp:Panel>
-    <asp:Panel ID="Panel3" runat="server"; style=" margin-top:15px">
+    <asp:Panel ID="Panel3" runat="server">
         <strong>
         <table class="auto-style2">
             <tr>
@@ -85,14 +85,14 @@
             </tr>
             <tr>
                 <td>KATEGORİ İKON:</td>
-                <td><strong>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    </strong></td>
+                <td>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button5" runat="server" CssClass="auto-style22" Text="Ekle" Width="137px" />
+                    <asp:Button ID="Button5" runat="server" CssClass="auto-style22" Text="Ekle" Width="137px" OnClick="Button5_Click" />
                 </td>
             </tr>
         </table>
