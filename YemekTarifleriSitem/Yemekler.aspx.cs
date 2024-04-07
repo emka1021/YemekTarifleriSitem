@@ -73,6 +73,14 @@ namespace YemekTarifleriSitem
             komut.Parameters.AddWithValue("@p4", DropDownList1.SelectedValue);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
+
+            //kategori sayısı artırma
+            SqlCommand komut2 = new SqlCommand("update Tbl_Kategoriler set KategoriAdet = KategoriAdet + 1 where Kategoriid = @p1", bgl.baglanti());
+            komut2.Parameters.AddWithValue("@p1", DropDownList1.SelectedValue);
+            komut2.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+
         }
     }
 }
