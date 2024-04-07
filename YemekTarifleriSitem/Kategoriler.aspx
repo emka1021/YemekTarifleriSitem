@@ -14,6 +14,9 @@
             font-weight: bold;
             font-size: large;
         }
+        .auto-style22 {
+            font-weight: bold;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -51,18 +54,47 @@
             </ItemTemplate>
         </asp:DataList>
 </asp:Panel>
-    <asp:Panel ID="Panel3" runat="server">
+    <asp:Panel ID="Panel3" runat="server"; style=" margin-top:15px">
         <strong>
         <table class="auto-style2">
             <tr>
                 <td class="auto-style18">
-                    <asp:Button ID="Button3" runat="server" CssClass="auto-style21" Height="30px"  Text="+" Width="30px" />
+                    <asp:Button ID="Button3" runat="server" CssClass="auto-style21" Height="30px"  Text="+" Width="30px" OnClick="Button3_Click" />
                 </td>
                 <td class="auto-style18"><strong>
-                    <asp:Button ID="Button4" runat="server" CssClass="auto-style21" Height="30px"  Text="-" Width="30px" />
+                    <asp:Button ID="Button4" runat="server" CssClass="auto-style21" Height="30px"  Text="-" Width="30px" OnClick="Button4_Click" />
                     </strong></td>
                 <td class="auto-style18">KATEGORİ LİSTESİ</td>
             </tr>
         </table>
         </strong></asp:Panel>
+    <asp:Panel ID="Panel4" runat="server">
+        <table class="auto-style2">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            </strong>
+            <tr>
+                <td>KATEGORİ AD:</td>
+                <strong>
+                <td>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                </td>
+                </strong>
+            </tr>
+            <tr>
+                <td>KATEGORİ İKON:</td>
+                <td><strong>
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </strong></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <asp:Button ID="Button5" runat="server" CssClass="auto-style22" Text="Ekle" Width="137px" />
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
 </asp:Content>
