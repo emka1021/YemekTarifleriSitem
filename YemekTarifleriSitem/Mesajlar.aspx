@@ -28,7 +28,7 @@
                 <td><strong>
                     <asp:Button ID="Button2" runat="server" CssClass="auto-style21" Height="30px"  Text="-" Width="30px" OnClick="Button2_Click"  />
                     </strong></td>
-                <td>ONAYLANAN YORUM LİSTESİ</td>
+                <td>MESAJLAR&nbsp; LİSTESİ</td>
             </tr>
         </table>
     </asp:Panel>
