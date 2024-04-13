@@ -69,9 +69,11 @@
   <ItemGroup>
     <Content Include="Adminaspx.aspx" />
     <Content Include="Anasayfa.aspx" />
-    <Content Include="GününYemeği.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
+    <Content Include="GununYemegiSecim.aspx" />
     <Content Include="Hakkımızda.aspx" />
     <Content Include="ikonlar\1727862-200.png" />
+    <Content Include="ikonlar\images.png" />
     <Content Include="ikonlar\R %281%29.png" />
     <Content Include="ikonlar\R.png" />
     <Content Include="ikonlar\refresh-icon-30.png" />
@@ -116,12 +118,19 @@
     <Compile Include="Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GününYemeği.aspx.cs">
-      <DependentUpon>GününYemeği.aspx</DependentUpon>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GününYemeği.aspx.designer.cs">
-      <DependentUpon>GününYemeği.aspx</DependentUpon>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiSecim.aspx.cs">
+      <DependentUpon>GununYemegiSecim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiSecim.aspx.designer.cs">
+      <DependentUpon>GununYemegiSecim.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkımızda.aspx.cs">
       <DependentUpon>Hakkımızda.aspx</DependentUpon>
