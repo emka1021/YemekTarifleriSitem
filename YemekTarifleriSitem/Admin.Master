@@ -75,7 +75,7 @@
         </tr>
         <tr>
             <strong>
-            <td class="auto-style16" style="border: thin solid #FFFFFF">MESAJLAR</td>
+            <td class="auto-style16" style="border: thin solid #FFFFFF"> <a href="Mesajlar.aspx"> MESAJLAR</a></td>
             </strong>
         </tr>
     </table>
