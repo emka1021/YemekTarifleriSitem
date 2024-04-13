@@ -81,6 +81,7 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanıcı.css" />
+    <Content Include="MesajDetay.aspx" />
     <Content Include="Mesajlar.aspx" />
     <Content Include="resimler\banner-1.png" />
     <Content Include="resimler\blog-ile-para-nasil-kazanilir.png" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="Kategoriler.aspx.designer.cs">
       <DependentUpon>Kategoriler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mesajlar.aspx.cs">
       <DependentUpon>Mesajlar.aspx</DependentUpon>

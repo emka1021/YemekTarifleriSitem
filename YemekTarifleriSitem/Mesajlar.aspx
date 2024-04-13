@@ -44,7 +44,7 @@
                     </td>
                     <strong>
                     <td class="auto-style22">
-                        <a href='YorumDetay.aspx?Yorumid = <%Eval("Yorumid");%>'>
+                        <a href='MesajDetay.aspx?Mesajid = <%Eval("Mseajid");%>'>
                         <asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/ikonlar/1727862-200.png" Width="30px" />
                         </a>
                         </td>
