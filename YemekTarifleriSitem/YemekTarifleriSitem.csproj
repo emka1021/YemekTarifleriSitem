@@ -88,6 +88,8 @@
     <Content Include="YemekDetay.aspx" />
     <Content Include="YemekDüzenle.aspx" />
     <Content Include="Yemekler.aspx" />
+    <Content Include="YorumDetay.aspx" />
+    <Content Include="Yorumlar.aspx" />
     <Content Include="İletişim.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -197,6 +199,20 @@
     </Compile>
     <Compile Include="Yemekler.aspx.designer.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.designer.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="İletişim.aspx.cs">
       <DependentUpon>İletişim.aspx</DependentUpon>

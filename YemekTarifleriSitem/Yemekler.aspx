@@ -18,6 +18,9 @@
         .auto-style22 {
             font-weight: bold;
         }
+        .auto-style23 {
+            margin-bottom: 184px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -80,7 +83,7 @@
                 <td>YEMEK AD:</td>
                 <strong>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Width="275px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="275px" CssClass="auto-style23"></asp:TextBox>
                 </td>
                 </strong>
             </tr>
